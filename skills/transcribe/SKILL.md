@@ -1,5 +1,5 @@
 ---
-name: transcribe-local-media
+name: transcribe
 description: Transcribe a local video or audio file into text and SRT subtitles with xhs-video-transcribe. Use when the user asks for subtitles or a transcript. This skill does not download media or access logged-in websites.
 ---
 

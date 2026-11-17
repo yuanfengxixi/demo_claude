@@ -1,6 +1,6 @@
 {
-  "name": "demo-claude",
-  "version": "0.1.0",
+  "name": "local-media-transcribe",
+  "version": "0.1.1",
   "description": "Claude Code skill for transcribing local video and audio files.",
   "author": {
     "name": "Yuanfeng Xixi"

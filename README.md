@@ -1,6 +1,6 @@
 # demo_claude
 
-A small Claude Code plugin that connects the `/demo-claude:transcribe-local-media` skill to the public [`xhs-video-transcribe`](https://github.com/yuanfengxixi/xhs-video-transcribe) CLI.
+A small Claude Code plugin that connects the `/local-media-transcribe:transcribe` skill to the public [`xhs-video-transcribe`](https://github.com/yuanfengxixi/xhs-video-transcribe) CLI.
 
 ## Install prerequisites
 
@@ -22,7 +22,7 @@ claude --plugin-dir .
 Then invoke the skill with a local file path:
 
 ```text
-/demo-claude:transcribe-local-media ./video.mp4
+/local-media-transcribe:transcribe ./video.mp4
 ```
 
 The skill asks the CLI for a transcript and SRT file, then reports the paths printed by the CLI. It does not automatically summarize or publish the result.
